@@ -1,0 +1,15 @@
+a.nav-link{
+  color: white;
+}
+a.nav-link:hover{
+  color: yellow;
+}
+a.nav-link:button{
+  color: grey;
+}
+.carousel-item img{
+  min-height: 348px;
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
