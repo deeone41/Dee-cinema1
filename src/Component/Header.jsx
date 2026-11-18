@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-black">
+    <Navbar expand="lg" className="bg-black"  sticky="top">
       <Container>
         <img src="/Download.png" alt="Logo" width={150} />
         {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}

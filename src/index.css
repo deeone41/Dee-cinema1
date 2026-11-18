@@ -13,4 +13,139 @@ a.nav-link:button{
   width: 100%;
   object-fit: cover;
 }
+.testme{
+  height: 500px;
+  background-color: chocolate;
+  width: 300px;
+}
+.testme h4{
+  display: none;
+}
+
+
+.testme h4{
+  display: none;
+}
+
+.position-relative{
+  position: relative;
+}
+
+
+.movie-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 2 / 3;
+  background-color: #141414;
+  cursor: pointer;
+}
+
+.movie-card img,
+.movie-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Top-right age badge */
+.rating-badge,
+.movie-rating {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 4px;
+  z-index: 3;
+}
+
+/* Hover Overlay */
+.movie-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 14px;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 2;
+  /* background-color: #141414; */
+}
+
+
+.movie-card:hover .movie-overlay {
+  opacity: 1;
+}
+
+.btn-trailer {
+  align-self: flex-start;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+}
+
+.movie-title {
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.movie-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #ccc;
+  font-size: 0.75rem;
+  margin-bottom: 12px;
+}
+
+.meta-rating {
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.7rem;
+}
+
+.btn-buy {
+  width: 100%;
+  background-color: #6c2bd9;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 7px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+}
+
+.btn-buy:hover {
+  background-color: #581ec2;
+}
+
+.btn-info {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: block;
+}
+
+
+                    
+                    
+                    
 

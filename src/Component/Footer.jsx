@@ -13,7 +13,7 @@ const Footer = () => {
         <Col>
         <img src="/Download.png" alt="Logo" width={150} />
 
-        <p> Experince Movies Beyond Imagination.</p>
+        <p> Experience Movies Beyond Imagination.</p>
         <p>Your destination for unforgettable cinema experience. Discover the latest blockbusters,book your favourite seats, and enjoy entertainment across Nigeria.</p>
         </Col>
 
